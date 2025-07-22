@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/cron.ts": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron.ts",
+      "schedule": "0 * * * *"
+    }
+  ]
+}
